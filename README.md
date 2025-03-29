@@ -3,6 +3,12 @@ This is a repository containing a Minecraft Dedicated Server setup for datapack 
 
 The datapacks are loaded consistently by linking all ``/datapacks`` folders from each world to the ``Datapacks`` folders via symbolic links.
 
+# Avaliable configurations
+
+1. ``Run_World.py`` - Runs the server in a fixed ``world`` save, default generation
+2. ``Run_Superflat.py`` - Runs the server in a fixed ``superflat`` save, flat generation
+3. ``Run_Temporary.py`` - Runs the server in a ``temporary`` save that gets erased before execution, default generation
+
 # Installation Instructions
 
 1. Run ``Setup.py``, this will create the folders and symlinks required for the ``Datapacks`` folder to work
