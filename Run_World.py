@@ -7,7 +7,7 @@ script_dir = Path(__file__).parent
 os.chdir(script_dir)
 
 # Update server.properties for superflat world
-server_properties = os.path.join('Server', 'server.properties')
+server_properties = Path('Server') / 'server.properties'
 new_level_name = 'world'
 
 with open(server_properties, 'r') as f:
