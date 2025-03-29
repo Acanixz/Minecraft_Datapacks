@@ -1,0 +1,16 @@
+# Ignore everything by default
+*
+!.gitignore
+
+# Except main scripts and README
+!*.py
+!*.md
+
+# Except the Datapacks folder and its contents
+!Datapacks/
+!Datapacks/README.txt
+
+# Ignore Server files except essential files
+!Server/
+!Server/Run.bat
+!Server/allowed_symlinks.txt
